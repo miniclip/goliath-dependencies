@@ -29,7 +29,7 @@ android {
 
 ext {
     PUBLISH_GROUP_ID = 'io.github.miniclip'
-    PUBLISH_VERSION = '0.1'
+    PUBLISH_VERSION = '0.2'
     PUBLISH_ARTIFACT_ID = 'goliathdependencies'
 }
 
@@ -41,7 +41,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.9.0")
     implementation("androidx.core:core-ktx:1.6.0")
     implementation("com.google.android.gms:play-services-analytics:17.0.1")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
